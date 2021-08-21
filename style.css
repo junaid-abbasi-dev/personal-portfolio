@@ -91,7 +91,7 @@ a {
 }
 /* using psuedo-class to change state of anchor tag */
 a:link {
-    color: #2b2d42;
+    color: #8d99ae;
 }
 a:visited {
     color: #e5546d;
