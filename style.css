@@ -1,0 +1,155 @@
+/* setting box-sizing to border-box to include padding and border in content's actual size */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* setting body's background color and color of its content inside it */
+body {
+    background-color: #2b2d42;
+    color: #fff;
+}
+/* setting content of .intro-location-container div to display in the center
+with help flex box technique
+*/
+.intro-location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* setting content of .about-me-section div to display in the center
+with help flex box technique
+*/
+.about-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+/* setting content of .contact-me-section div to display in the center
+with help flex box technique
+*/
+.contact-me-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+targetting paragraph of .about-me-container div, and setting 
+padding left and padding right
+*/
+.about-me-container p {
+    padding-left: 300px;
+    padding-right: 120px;
+}
+
+/*
+setting size, border radius, style, and margin of main image at the top
+*/
+.heading > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #edf2f4;
+    margin-top: 120px;
+}
+/* aligning text to center of .contact-me-container div's paragraph */
+.contact-me-container p {
+    text-align: center;
+}
+/* 
+setting font-family of h1, h2, h3, and p to desired font-family, taken from google fonts api
+*/
+h1.heading-1 {
+font-family: 'VT323', monospace;
+font-size: 100px;
+line-height: 10px;
+}
+h2 {
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    color: #8d99ae;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 600px;
+    text-align: center;
+    color: #8d99ae;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+/* removing the bottom line from anchor tag, setting its color, and the weight */
+a {
+    text-decoration: none;
+    color: #8d99ae;
+    font-weight: bold;
+}
+/* using psuedo-class to change state of anchor tag */
+a:link {
+    color: #2b2d42;
+}
+a:visited {
+    color: #e5546d;
+}
+a:hover {
+    color: #e5546d;
+}
+a:active {
+    color: #2b2d42;
+}
+/* removing the bullet from unorder list and setting its color */
+ul li {
+    list-style: none;
+    color: #8d99ae;
+}
+/* setting the margin, alignment and border of horizantal rule */
+hr {
+margin: 1.5em 0;
+text-align: center;
+border: none;
+}
+
+hr:before {
+content: '';
+display: inline-block;
+width: 14px;
+height: 14px;
+border-radius: 50%;
+background: #fff;
+margin: 0 0.4em;
+}
+
+hr:after {
+content: '';
+display: inline-block;
+width: 14px;
+height: 14px;
+border-radius: 50%;
+background: #fff;
+margin: 0 0.4em;
+}
+/* target specific a of .contact-me-container and setting its font size */
+.contact-me-container > p > a {
+    font-size: 25px;
+}
+/* main-header div text to center */
+.main-header {
+    text-align: center;
+}
+/* setting size, background, color, alignment, padding and margin or footer-container div  */
+.footer-container {
+    height: 100px;
+    width: 100%;
+    background-color: #e5546d;
+    color: #edf2f4;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin-top: 30px;
+}

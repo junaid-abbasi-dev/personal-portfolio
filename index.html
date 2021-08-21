@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Personal Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <!-- normalize.min.css cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- VT323 google fonts for h1 link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <!-- Roboto google fonts for the whole page -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- main header for image, and main heading, sub-heading -->
+        <header class="main-header">
+            <div class="main-container">
+                <div class="heading">
+                    <img src="./images/profile-pic.jpeg" alt="">
+                    <h1 class="heading-1">Junaid A.</h1>
+                    <h2>Software Engineer</h2>
+                </div>
+            </div>
+        </header>
+        <!-- horizantal rule to divide the sections -->
+        <hr>
+        <!-- main content of the website starts from here -->
+        <main>
+            <!-- whole content in wrapped inside article, and every section is in section tag -->
+            <article>
+                <section class="intro-location-section">
+                    <div class="intro-location-container">
+                        <div class="bio">
+                            <h3>Hi, I'm Junaid Abbasi</h3>
+                            <p>I am a software developer living in Houston, Texas</p>
+                            <p>As a former CS student, I'm interested in: </p>
+                            <!-- unordered list for interested topics -->
+                            <ul>
+                                <li><p>Artificial Intelligence</p></li>
+                                <li><p>Web Development</p></li>
+                                <li><p>UX Design</p></li>
+                                <li><p>Science Ficiton</p></li>
+                            </ul>
+                            <p>Please take a look at my website and feel free to <a href="#">Contact Me</a>!</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- another horizantal rule -->
+                <hr>
+                <!-- about me section, for bio -->
+                <section class="about-me-section">
+                    <div class="about-me-container">
+                        <h3>About Me</h3>
+                        <p>I'm a Computer Science undergraduate, currently enrolled in Thinkful Software Engineering coding bootcamp.</p>
+                        <p>During my college years, I was elected as a vice president of student chapter of IEEE and worked as a social media marketer in ACM student chapter.</p>
+                        <p>After graduation I decided to join Thinkful coding bootcamp to get more industry relevant skills.</p>
+                    </div>
+                </section>
+                <!-- horizantal rule -->
+                <hr>
+                <!-- contact me section, for contact and the current location -->
+                <section class="contact-me-section">
+                    <div class="contact-me-container">
+                        <h3>Contact Me</h3>
+                        <p>I'd love to hear from you! Please feel free to contact or follow me!</p>
+                        <p><a href="#">LinkedIn 👨🏼‍💻</a></p>
+                        <p><a href="#">GitHub 👾</a></p>
+                        <div class="location">
+                            <!-- this is embedded link taken from google maps, that  redirects to my location -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.5623627398077!2d-95.5822718850781!3d29.674471342910085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640dd5fad6c7e97%3A0xe549e56ed2e61435!2s607%2F2%2C%2011455%20Bissonnet%20St%2C%20Houston%2C%20TX%2077099!5e0!3m2!1sen!2sus!4v1629569691277!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <!-- footer section for copyrights -->
+        <footer>
+            <div class="footer-container">
+                <p>@JunaidA. at Thinkful</p>
+            </div>
+        </footer>
+        <!-- JS File -->
+        <script src="app.js" async defer></script>
+    </body>
+</html>
