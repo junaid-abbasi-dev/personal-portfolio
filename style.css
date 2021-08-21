@@ -97,7 +97,7 @@ a:visited {
     color: #e5546d;
 }
 a:hover {
-    color: #e5546d;
+    color: #fff;
 }
 a:active {
     color: #fff;
@@ -136,7 +136,6 @@ margin: 0 0.4em;
 /* target specific a of .contact-me-container and setting its font size */
 .contact-me-container > p > a {
     font-size: 25px;
-    color: #fff;
 }
 /* main-header div text to center */
 .main-header {
