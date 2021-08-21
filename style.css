@@ -100,7 +100,7 @@ a:hover {
     color: #fff;
 }
 a:active {
-    color: #2b2d42;
+    color: #fff;
 }
 /* removing the bullet from unorder list and setting its color */
 ul li {
