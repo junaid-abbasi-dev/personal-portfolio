@@ -10,6 +10,10 @@ body {
     background-color: #1a1c29;
     color: #fff;
 }
+.bio {
+    padding-left: 30px;
+    padding-right: 30px;
+}
 /* setting content of .intro-location-container div to display in the center
 with help flex box technique
 */
@@ -39,16 +43,19 @@ targetting paragraph of .about-me-container div, and setting
 padding left and padding right
 */
 .about-me-container p {
-    padding-left: 300px;
-    padding-right: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-
+.contact-me-p {
+    padding-left: 60px;
+    padding-right: 50px;
+}
 /*
 setting size, border radius, style, and margin of main image at the top
 */
 .heading > img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid #edf2f4;
     margin-top: 120px;
@@ -61,18 +68,18 @@ setting size, border radius, style, and margin of main image at the top
 setting font-family of h1, h2, h3, and p to desired font-family, taken from google fonts api
 */
 h1.heading-1 {
-font-family: 'VT323', monospace;
-font-size: 100px;
-line-height: 10px;
+    font-family: 'VT323', monospace;
+    font-size: 70px;
+    line-height: 10px;
 }
 h2 {
     font-family: 'VT323', monospace;
-    font-size: 40px;
+    font-size: 30px;
     color: #8d99ae;
 }
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600px;
     text-align: center;
     color: #8d99ae;
@@ -164,4 +171,37 @@ margin: 0 0.4em;
     font-size: 20px;
     padding: 30px;
     margin-top: 30px;
+}
+.location {
+    padding: 50px;
+}
+@media (min-width: 992px) {
+    .about-me-container p {
+        padding-left: 300px;
+        padding-right: 120px;
+    }
+    .heading > img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 5px solid #edf2f4;
+        margin-top: 120px;
+    }
+    h1.heading-1 {
+        font-family: 'VT323', monospace;
+        font-size: 100px;
+        line-height: 10px;
+    }
+    h2 {
+        font-family: 'VT323', monospace;
+        font-size: 40px;
+        color: #8d99ae;
+    }
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 600px;
+        text-align: center;
+        color: #8d99ae;
+    }
 }
